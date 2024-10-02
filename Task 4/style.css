@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(245, 222, 179, 0.484);
+
+}
+
+.navbar{
+    height: 80px;
+    background-color: rgb(199, 145, 10);
+    box-shadow: 5px 5px 50px black;
+    border-radius: 10px;
+}
+
+.list_content{
+    position: relative;
+    top: 15px;
+    width: 600px;
+    
+    padding: 10px;
+    float: right;
+}
+
+.list{
+    
+    position: relative;
+    display: inline;
+    padding: 10px;
+   
+    /*font*/
+    font-weight: 700;
+    font-size: 20px;
+    &:hover{
+        text-shadow:5px 5px 15px rgb(73, 49, 0) ;
+        font-size: 25px;
+    }
+
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    background-color: rgb(146, 80, 0);
+    border: none;
+    border-radius: 10px;
+    margin: 15px;
+    margin-left: 30%;
+    position: relative;
+    float: right;
+    &:hover{
+        box-shadow: 5px 5px 10px black;
+        
+    }
+}
+
+
+
+.logo
+{
+    height: 80px;
+    
+    &:hover{
+        height: 90px;
+        
+    }
+}
+
+
+.main{
+    position: absolute;
+    display: inline-block;
+    width: 80vw;
+    height:70vh;
+    margin-left: 200px;
+    margin-top: 100px;
+    
+}
+
+.leftdiv{
+    
+    position: relative;
+    left: 10px;
+    bottom: -100px;
+    float: left;
+    width: 40vw;
+    height: 55vh;
+    margin: 10px;
+
+    /* font */
+    font-weight: 600;
+}
+
+.bookbtn{
+    width: 10vw;
+    height: 60px;
+    text-decoration: none;
+    background-color: rgb(146, 80, 0);
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+    position: relative;
+    
+    &:hover{
+        box-shadow: 5px 5px 10px black;
+        
+    }
+
+}
+
+.heading{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+
+.rightdiv{
+    
+    position: relative;
+    float: right;
+    
+}
+
+.bigimage{
+    position: relative;
+    width: 35vw;
+    float: right;
+    
+}

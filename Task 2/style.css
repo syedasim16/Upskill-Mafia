@@ -1,0 +1,31 @@
+body{
+    background-color: red;
+}
+.head{
+    color: darkblue;
+}
+#bglime{
+    background-color: lime;
+    color: red;
+}
+
+p{
+    color: white;
+}
+
+#para{
+    color: green;
+}
+
+
+#firstul>a{
+    background-color: yellow;
+}
+
+#secondul>a{
+    background-color: purple;
+}
+
+ol>li{
+    color: white;
+}

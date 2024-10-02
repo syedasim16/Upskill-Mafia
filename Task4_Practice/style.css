@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.body{
+    height: 2100px;
+    width: 100%;
+   
+}
+
+
+.navbar{
+    box-sizing: border-box;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: end;
+    background-color: antiquewhite;
+    box-shadow: 10px 20px 50px;
+    border-radius: 5px;
+    z-index: 1;
+    
+    
+}
+.navbar:hover{
+    box-shadow: 10px 20px 30px;
+}
+
+.img{
+     position: fixed;
+     width: 100px;
+     display: inline;
+     left: 20px;
+     top: 15px;
+     z-index: 1;
+     /* mix-blend-mode: multiply; */
+}
+.img:hover{
+    width: 110px;
+}
+
+.list{
+    display: inline-block;
+    text-align: end;
+    padding: 25px;
+    font-size: 20px;    
+}
+.list:hover{
+    color: rgb(78, 51, 0);
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px;
+    font-size: 25px;
+}
+
+.content{
+    position: absolute;
+    padding: 110px 50px;
+    left: 400px;
+    box-sizing: border-box;
+    background-color: rgb(87, 61, 0);
+    
+    height: 1900px;
+    width: 1000px;
+}
+
+.content{
+    color: aliceblue;
+    
+    text-transform: capitalize;
+    
+    font-weight: 1000;
+    
+}
+
+.adbar{
+    display: block;
+    position: sticky;
+    float: right;
+    top: 130px;
+    background-color: rgb(214, 136, 0);
+    
+    height: 600px;
+    width: 200px;   
+
+    color: aliceblue;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    font-weight: 1000;
+    
+    
+    
+}
+
+.adbarp{
+    height: 1400px;
+    width: 100%;  
+
+}
+
+.foot{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 300px;
+    bottom: 0px;
+    
+    background-color: rgb(0, 0, 0);
+
+    color: aliceblue;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.cont{
+    
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background-color: blue;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.cont:hover{
+    box-shadow: 10px 20px 30px;
+
+}
+.text{
+    color: aliceblue;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px;
+    font-weight: 600;
+}
