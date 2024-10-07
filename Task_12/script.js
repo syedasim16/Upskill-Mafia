@@ -43,7 +43,7 @@ else{
 
  let number3 = 153;
 
-if(number3 / number3 == 0 && number3 / 1 == 0){
+if(number3 / number3 === 0 && number3 / 1 == 0){
     console.log("Is it a prime number? Yes")
 }
 else{
