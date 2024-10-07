@@ -1,0 +1,277 @@
+/* Color pallete div1 - #5AB2FF | div2- #CAF4FF  */
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+body{
+      
+    
+    background-color: #5AB2FF;
+}
+
+.navbar{
+    background-color: #e6faff;
+    height: 120px;
+    padding: 20px ;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.img{
+    /* width: 100%; */
+    
+}
+
+.menu{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.list{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.menu li:last-child{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn{
+    height: 70px;  
+    padding: 10px 30px;
+  
+    color: white;                                                                       
+    background-color: #5AB2FF;
+    border: none;
+    border-radius: 10px;
+ }
+.btndiv{    
+    
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+ }
+
+
+ .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+ }
+
+.div1,.div2{
+    flex: 1 1 48%;
+    
+}
+ .div1{
+    
+    
+    height: 80%;
+    
+    display: flex;
+    justify-content: start;
+    line-height: 1.2;
+    flex-wrap: wrap;
+    padding: 20px;
+
+ }
+
+
+.heading{
+
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.para{
+    padding: 60px, 0px;
+    width: fit-content;
+    font-size: small;
+    
+    
+     
+}
+
+.bookbtn{
+
+    margin-top: 20px;
+    padding: 20px 30px;
+   
+
+    text-decoration: none;
+    background-color: rgb(146, 80, 0);
+    border: none;
+    border-radius: 10px;
+    
+    /* &:hover{
+        box-shadow: 5px 5px 10px black;
+        
+    } */
+
+}
+
+
+.div2{
+    
+    /* flex-direction: column; */
+    
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    padding: 20px;
+
+}
+
+.machine{
+    width: 100%;
+    
+}
+.contact{
+        color: white;
+        font-size: larger;
+        display: none;
+        background-color: rgb(106, 198, 221);
+        border-radius: 10px;
+        padding: 20px 20px;
+        
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 1;
+
+}
+
+.threeline{
+    
+    display: none;
+    margin-right: 0px;
+    margin-left: 40px;
+    font-size: 40px;
+    color: #5AB2FF;
+    position: relative;
+
+    border: none;
+    background: none;
+    /* z-index: 1; */
+   
+    
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 1120px){
+    .contact{
+        
+        display: block;
+        
+    }
+    .menu li:last-child{
+        display: none;
+    }
+    
+}
+
+@media (max-width:640px){
+
+    .menu{
+        display: none;
+       
+    }
+
+    .threeline{
+        display: block;
+    }
+    .checkbox{
+        display: block;
+    }
+  
+}
+ 
+
+
+.sidebar{
+    
+ 
+    display: none;
+
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    
+    
+    right: 0;
+    background-color: beige;
+    
+ }
+
+ .burgermenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    height: 100%;
+
+
+
+   
+    
+    text-align: center;
+   
+    
+    list-style: none;
+
+
+ }
+
+
+ .burgerlist{
+    padding: 20px 0px;
+ }
+
+ 
+.threeline:focus + .sidebar{
+    display: block;
+    
+    
+}
+
+
