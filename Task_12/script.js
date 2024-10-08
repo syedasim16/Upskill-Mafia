@@ -41,14 +41,25 @@ else{
 
 //Checking Prime Number or Not
 
- let number3 = 153;
+let number3 = 153;
+ 
+function checkPrime(num){
+    if(num<2)
+        return(num + " is not a prime number")
 
-if(number3 / number3 === 0 && number3 / 1 == 0){
-    console.log("Is it a prime number? Yes")
+    for(let i = 2; i<num;i++){
+        if(num % i ===0){
+            return(num + " is not a prime number")
+        }
+    }
+   return(num + " is a prime number")
+
+  
 }
-else{
-    console.log("Is it a prime number? No")
-}
+
+console.log(checkPrime(number3))
+
+
 
 //------------------------------------------------------------------------
 
