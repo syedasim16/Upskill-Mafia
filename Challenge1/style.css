@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body{
+    background-color: rgb(211, 187, 152);
+}
+
+.navbar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    width: 100%;
+    height: 60px;
+    
+}
+
+
+.ullist{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 40px;
+    
+}
+
+
+.lilist{
+    padding: 10px;
+    
+}
+.spline{
+    position: absolute;
+    left: 15px;
+    top: 16px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.btn{
+    position: absolute;
+    right: 60px;
+    top: 16px;
+    z-index: 1;
+    padding: 20px 50px;
+
+    border-radius: 10px;
+    background-color: rgb(139, 75, 11);
+
+    color: white;
+}
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    height: 100vh;
+
+    padding: 20px;
+}
+
+.content{
+    font-size: 30px;
+    width: 600px;
+}
+.heading{
+    padding: 10px;
+
+}
+.para{
+    padding: 10px;
+
+}
+
+
+.bigbtn{
+    
+    padding: 30px 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(139, 75, 11);
+
+    color: white;
+}
+.rightdiv{
+    position: relative;
+
+    clip-path: polygon(71% 0, 100% 0%, 100% 100%, 71% 100%, 25% 50%);
+    
+
+    background-color: rgb(255, 255, 255);
+
+    /* background-image: url('picture.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: contain; */
+
+    width: 50%;
+    height: 100vh;
+    
+}
+
+
+.img{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+    width:900px;
+    position: absolute;
+    right: 0px;
+    bottom: 120px;
+    left: 400px;
+
+}
+
+.triangle1{
+    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%, 50% 45%);
+
+    position: absolute;
+    right: 0;
+    top: -110px;;
+    z-index: 1;
+    width: 500px;
+    height: 500px;
+
+    background-color: rgb(89, 56, 0);
+}
+
+
+.triangle2{
+    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%, 50% 55%);
+
+    position: absolute;
+    right: 0;
+    bottom: -110px;
+    z-index: 1;
+    width: 500px;
+    height: 500px;
+
+    background-color: rgb(89, 56, 0);
+}
