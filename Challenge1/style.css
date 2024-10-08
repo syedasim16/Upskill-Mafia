@@ -15,8 +15,8 @@ body{
     justify-content:center;
     align-items: center;
 
-    width: 100%;
-    height: 60px;
+    width: 90%;
+    height: 10vh;
     
 }
 
@@ -38,8 +38,8 @@ body{
 }
 .spline{
     position: absolute;
-    left: 15px;
-    top: 16px;
+    left: 60px;
+    top: 40px;
     font-size: 40px;
     font-weight: 700;
 }
@@ -47,8 +47,8 @@ body{
 
 .btn{
     position: absolute;
-    right: 60px;
-    top: 16px;
+    right: 100px;
+    top: 30px;
     z-index: 1;
     padding: 20px 50px;
 
@@ -71,7 +71,7 @@ body{
     justify-content: center;
 
     width: 50%;
-    height: 100vh;
+    height: 90vh;
 
     padding: 20px;
 }
@@ -113,7 +113,7 @@ body{
     object-fit: contain; */
 
     width: 50%;
-    height: 100vh;
+    height: 90vh;
     
 }
 
@@ -124,7 +124,7 @@ body{
     width:900px;
     position: absolute;
     right: 0px;
-    bottom: 120px;
+    bottom: 60px;
     left: 400px;
 
 }
@@ -134,7 +134,7 @@ body{
 
     position: absolute;
     right: 0;
-    top: -110px;;
+    top: -170px;;
     z-index: 1;
     width: 500px;
     height: 500px;
@@ -148,7 +148,7 @@ body{
 
     position: absolute;
     right: 0;
-    bottom: -110px;
+    bottom: -170px;
     z-index: 1;
     width: 500px;
     height: 500px;
