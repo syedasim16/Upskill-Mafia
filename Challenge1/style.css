@@ -1,4 +1,5 @@
 *{
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,6 +8,7 @@
 
 
 body{
+ 
     background-color: rgb(211, 187, 152);
 }
 
@@ -121,17 +123,19 @@ body{
 .img{
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 
-    width:900px;
+    width:600px;
+    
     position: absolute;
-    right: 0px;
-    bottom: 60px;
-    left: 400px;
+    
+    bottom: 110px;
+    left: 360px;
 
 }
 
 .triangle1{
-    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%, 50% 45%);
+    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%, 50% 50%);
 
+    
     position: absolute;
     right: 0;
     top: -170px;;
@@ -144,8 +148,9 @@ body{
 
 
 .triangle2{
-    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%, 50% 55%);
+    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%, 50% 50%);
 
+    float: right;
     position: absolute;
     right: 0;
     bottom: -170px;
