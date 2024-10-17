@@ -20,22 +20,6 @@ btn.addEventListener('click', () =>{
 })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function red(){
     if(isStatus == 0){
         {

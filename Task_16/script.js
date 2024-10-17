@@ -2,37 +2,21 @@ function searchFun() {
     
     var data = document.getElementById('inputText').value.toUpperCase();
 
-    
-    var name = document.getElementById('name').innerHTML.toUpperCase();
+   
+    var cardwrapper = document.getElementsByClassName("card-wrapper")[0];
+
+   
+    let cards = Array.from(cardwrapper.getElementsByClassName("card")); 
 
     
-    var heading = document.getElementById("heading"); 
-
-    
-    var cardwrapper = document.getElementsByClassName("card-wrapper")[0]; 
-
-    
-    let cards = cardwrapper.getElementsByClassName("card");
-
-    
-    for (let i = 0; i < cards.length; i++) {
-       
-        let cardText = cards[i].textContent || cards[i].innerText;
+    cards.map(card => {
+        
+        let cardText = (card.textContent || card.innerText).toUpperCase();
 
         
-        cardText = cardText.toUpperCase();
-
-       
-        if (cardText.includes(data)) {
-            
-            cards[i].style.display = "";
-        } else {
-            
-            cards[i].style.display = "none";
-        }
-    }
+        card.style.display = cardText.includes(data) ? "" : "none";
+    });
 }
-
 
 
 
